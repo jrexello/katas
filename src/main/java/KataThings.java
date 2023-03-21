@@ -7,6 +7,8 @@ import static main.java.katas.CreditCardMask.maskify;
 import static main.java.katas.Isogram.isogram;
 import static main.java.katas.Outlier.outlier;
 import static main.java.katas.Pangram.pangram;
+import static main.java.katas.RGBToHex.rgbToHex;
+import static main.java.katas.TrailNumber.incrementString;
 
 public class KataThings {
 
@@ -21,6 +23,8 @@ public class KataThings {
         //System.out.println((pangram(input) ? "True" : "False"));
         //System.out.println((isogram(input) ? "True" : "False"));
         //System.out.println(outlier());
+        //System.out.println(rgbToHex(-20, 275, 125));
+        System.out.println(incrementString(input));
     }
 
 }
