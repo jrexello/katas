@@ -5,6 +5,7 @@ import java.util.Scanner;
 import static main.java.katas.AlphabetWars.alphabetWar;
 import static main.java.katas.CamelCaser.toCamelCase;
 import static main.java.katas.CreditCardMask.maskify;
+import static main.java.katas.Diamond.printDiamond;
 import static main.java.katas.Isogram.isogram;
 import static main.java.katas.Outlier.outlier;
 import static main.java.katas.Pangram.pangram;
@@ -26,7 +27,8 @@ public class KataThings {
         //System.out.println(outlier());
         //System.out.println(rgbToHex(-20, 275, 125));
         //System.out.println(incrementString(input));
-        System.out.println(toCamelCase(input));
+        //System.out.println(toCamelCase(input));
+        System.out.println(printDiamond(Integer.parseInt(input)));
     }
 
 }
